@@ -1,0 +1,16 @@
+site_name: AukletAPM To Go Documentation
+theme: material
+
+pages:
+    - AukletAPM To Go: index.md
+    - Getting started: getting-started.md
+
+#repo_name: 'aukletapm/aukletapm-to-go'
+#repo_url: 'https://github.com/aukletapm/aukletapm-to-go'
+
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/aukletapm'
+
+copyright: 'Coded with ❤ in Shanghai | Version:1.3.1'
