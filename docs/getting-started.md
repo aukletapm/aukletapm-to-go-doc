@@ -1,3 +1,7 @@
+## Download AukletAPM To Go
+[![Download on the AppStore](img/download-on-the-appstore.png)](https://itunes.apple.com/us/app/AukletAPM/id1351572279?mt=8)
+[![Download for Android](img/download-for-android.png)](https://play.google.com/store/apps/details?id=com.aukletapm.go)
+
 ## Installation
 
 Grab via Maven:
@@ -6,14 +10,14 @@ Grab via Maven:
 <dependency>
     <groupId>com.aukletapm.go</groupId>
     <artifactId>go</artifactId>
-  <version>1.3.1</version>
+  <version>1.3.2</version>
 </dependency>
 ```
 
 Grab via Gradle:
 
 ```
-compile group: 'com.aukletapm.go', name: 'go', version: '1.3.1'
+compile group: 'com.aukletapm.go', name: 'go', version: '1.3.2'
 ```
 
 ## Kotlin & servlet integration
@@ -59,14 +63,14 @@ Grab via Maven:
 <dependency>
     <groupId>com.aukletapm.go</groupId>
     <artifactId>go-servlet</artifactId>
-  <version>1.3.1</version>
+  <version>1.3.2</version>
 </dependency>
 ```
 
 Grab via Gradle:
 
 ```
-compile group: 'com.aukletapm.go', name: 'go-servlet', version: '1.3.1'
+compile group: 'com.aukletapm.go', name: 'go-servlet', version: '1.3.2'
 ```
 
 ##### Create a servlet handler
@@ -95,7 +99,7 @@ import javax.servlet.http.HttpServletResponse
  * @author Eric Xu
  * @date 15/03/2018
  */
-@WebServlet("/auklet-go")
+@WebServlet("/aukletapm-to-go")
 class AukletGoServlet : HttpServlet() {
 
     private lateinit var servletHandler: AukletApmToGoHttpServletHandler
@@ -132,7 +136,7 @@ class AukletGoServlet : HttpServlet() {
 
 ##### Add service into AukletAPM To Go
 
-Then start your web application, open `http://your-ip:port/context-path/auklet-go` in the web browser, you will see the welcome page of the Auklet Go server as follows:
+Then start your web application, open `http://your-ip:port/context-path/aukletapm-to-go` in the web browser, you will see the welcome page of the AukletAPM To Go server as follows:
 
 ![Welcome Page](img/welcome-page.png)
 
