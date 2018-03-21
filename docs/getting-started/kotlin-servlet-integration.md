@@ -1,26 +1,4 @@
-## Download AukletAPM To Go
-[![Download on the AppStore](img/download-on-the-appstore.png)](https://itunes.apple.com/us/app/AukletAPM/id1351572279?mt=8)
-[![Download for Android](img/download-for-android.png)](https://play.google.com/store/apps/details?id=com.aukletapm.go)
-
-## Installation
-
-Grab via Maven:
-
-```xml
-<dependency>
-    <groupId>com.aukletapm.go</groupId>
-    <artifactId>go</artifactId>
-  <version>1.3.2</version>
-</dependency>
-```
-
-Grab via Gradle:
-
-```
-compile group: 'com.aukletapm.go', name: 'go', version: '1.3.2'
-```
-
-## Kotlin & servlet integration
+You can download the sample project at [Github](https://github.com/aukletapm/aukletapm-to-go-sample-kotlin-gradle).
 
 #### Configure AukletAPM To Go
 import classes
@@ -63,14 +41,14 @@ Grab via Maven:
 <dependency>
     <groupId>com.aukletapm.go</groupId>
     <artifactId>go-servlet</artifactId>
-  <version>1.3.2</version>
+  <version>1.4.0</version>
 </dependency>
 ```
 
 Grab via Gradle:
 
 ```
-compile group: 'com.aukletapm.go', name: 'go-servlet', version: '1.3.2'
+compile group: 'com.aukletapm.go', name: 'go-servlet', version: '1.4.0'
 ```
 
 ##### Create a servlet handler
@@ -134,15 +112,19 @@ class AukletGoServlet : HttpServlet() {
 }
 ```
 
-##### Add service into AukletAPM To Go
-
 Then start your web application, open `http://your-ip:port/context-path/aukletapm-to-go` in the web browser, you will see the welcome page of the AukletAPM To Go server as follows:
 
 ![Welcome Page](img/welcome-page.png)
 
-Now, the server is runing. You can open the "AukletAPM To Go" scaning this QR Code to add your service into the "AukletAPM to Go".  
-After that, you can monitor all the status that you was configured which at your fingertips.
+The server is started. Open the "AukletAPM To Go" scanning the QR Code to add your service.
+
+Now, you can monitor all the status what you configured at your fingertips.
 
 ![service list](img/service-list.png)
-![component key value](img/component-key-value.png)
+![Screenshot4](../img/screenshot4.png)
+![Screenshot5](../img/screenshot5.png)
+
+## Download
+<a href="https://itunes.apple.com/us/app/AukletAPM/id1351572279?mt=8" target="_blank">![Download on the AppStore](../img/download-on-the-appstore.png)</a>
+<a href="https://play.google.com/store/apps/details?id=com.aukletapm.go" target="_blank">![Download on the AppStore](../img/download-for-android.png)</a>
 
